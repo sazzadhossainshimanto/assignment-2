@@ -75,6 +75,41 @@
         color: #5D58EF;
         
 }
+.banner{
+        max-width:100%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+}
+.banner-container{
+        width: 650px;
+        gap: 24px;
+}
+.banner-container-img{
+        width: 480px;
+}
+.banner-title{
+        font-weight: bold;
+        font-size: 56px;
+        margin-bottom: 24px;
+        
+}
+.banner-description{
+        font-size: 20px;
+        margin-bottom: 24px;
+}
+.hero-brn{
+        padding: 10px 47px;
+        background: rgb(17, 17, 17);
+}
+.empowering{
+        color: #FEA301;
+}
+.vision{
+        color: #01ACFD;
+}
 @media screen and (max-width:576px) {
         .hide-mobile{
                 display: none;
