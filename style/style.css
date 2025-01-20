@@ -52,6 +52,15 @@
         font-size: 20px;
         font-weight: 500;
 }
+.nav-color{
+        border: 0.5px solid rgb(254, 163, 1);
+}
+.nav-phone{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 16px;
+        
+}
 #home{
         font-weight: bold;
         color: #FEA301;
@@ -64,4 +73,16 @@
 }
 #admission{
         color: #5D58EF;
+        
+}
+@media screen and (max-width:576px) {
+        .hide-mobile{
+                display: none;
+        }
+        
+}
+@media screen and (min-width:576px) and (max-width:2000px) {
+        .hide-p{
+                display: none;
+        }
 }
