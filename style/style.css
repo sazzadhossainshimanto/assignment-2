@@ -125,6 +125,66 @@
         width: 100%;
         height: auto;
 }
+.section-title{
+        text-align: center;
+        margin-top: 60px;
+        font-weight: bold;
+        font-size: 48px;
+        color: #000000;
+        margin-bottom: 80px;
+}
+.curriculuam-container{
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 80px;
+        gap: 28px;
+ 
+}
+.curriculuam-item-box{
+        padding: 60px 40px;
+        box-sizing: border-box;
+        border: 1px solid rgb(242, 232, 255);
+        border-radius: 19px;
+        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+        
+}
+.curriculuam-title{
+        color: rgb(32, 32, 32);
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 33px;
+        margin-top: 32px;
+              
+}
+.curriculuam-description{
+        color: rgb(128, 128, 128);
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 33px;
+        
+}
+.read-more{
+        font-size: 15px;
+        font-weight: 700;
+}
+.curriculuam-box-1{
+        background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+.curriculuam-box-2{
+        background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+.curriculuam-box-3{
+        background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+.color-blue{
+        color: rgb(100, 200, 255);
+}
+.color-yeallow{
+        color: rgb(240, 170, 0);
+}
+.color-violet{
+        color: rgb(135, 0, 255);
+}
 @media screen and (max-width:576px) {
         .hide-mobile{
                 display: none;
