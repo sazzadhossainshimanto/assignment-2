@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 *{      font-family: "Quicksand", serif;
         margin: 0;
         padding: 0;
@@ -186,6 +187,110 @@
 .color-violet{
         color: rgb(135, 0, 255);
 }
+.arro{
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 60px;
+}
+.arro-icon{
+        
+        height: 60px;
+        width: 60px;
+        background-color: #FEA301;
+        border-radius: 50%;
+}
+.arro-size{
+        font-size: 50px;
+        color: white;
+}
+.stories-seciton{
+        background: url(image), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+.stories-seciton-position{
+        justify-content: center;
+        gap: 19px;
+        
+}
+.storybox-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 19px;
+}
+.stories-container{
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        position: relative;
+        
+}
+.stories-container > img{
+        border-radius:  16px 16px 0 0 ;
+}
+.date{ margin-left: 38px;
+        margin-top: -28px;
+        margin-right: 78px;
+        width: 180px;
+        padding: 15px 20px;
+        border-radius: 47.93px;
+        background: rgb(60, 216, 232);
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 500;
+
+        
+}
+.box-1{
+        width: 540px;
+        height: 630px;
+}
+.container-box-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+}
+.container-box-1-story-title{
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        font-weight: 700;
+        margin: 33px 100px 47px 38px;
+      
+}
+.container-box-1-story-description{
+        color: rgb(102, 102, 102);
+        font-family: Raleway;
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0 68px 34px 38px;                
+}
+.date-1{
+        margin-top: -20px;
+        margin-left: -38px;
+        width: 180px;
+        padding: 15px 19px;
+        border-radius: 47.93px;
+        background: rgb(149, 178, 38);
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 500;
+}
+.container-box-story-title{
+        color: rgb(0, 0, 0);
+        font-size: 15.5px;
+        font-weight: 700;
+        margin: 19px 54px 32px 38px;
+}
+.story-btn{
+        text-align: center;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
 @media screen and (max-width:576px) {
         .hide-mobile{
                 display: none;
@@ -247,5 +352,6 @@
         .curriculuam-description, .read-more{
                 font-size: 10.5px;
         }
+        
         
 }
