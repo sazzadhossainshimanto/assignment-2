@@ -136,6 +136,7 @@
 .curriculuam-container{
         text-align: center;
         justify-content: center;
+        flex-wrap: wrap;
         margin-bottom: 80px;
         gap: 28px;
  
@@ -225,4 +226,26 @@
         .btn-primary{
                 font-size: 16px;
         }
+        .section-title{
+                font-size: 26px;
+                margin-bottom: 20px;
+        }
+        .curriculuam-container{
+                margin: 20px 17px;
+                gap: 13px;
+        }
+        .curriculuam-item-box{
+                width: 350px;
+                height: auto;
+                padding: 36px 28px 36px 28px;
+                gap: 22px;
+        }
+        .curriculuam-title{
+                font-size: 16.6px;
+
+        }
+        .curriculuam-description, .read-more{
+                font-size: 10.5px;
+        }
+        
 }
