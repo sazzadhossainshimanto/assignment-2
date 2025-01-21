@@ -218,6 +218,8 @@
         gap: 19px;
 }
 .stories-container{
+        width: 290px;
+        height: 300px;
         border-radius: 16px;
         background: rgb(255, 255, 255);
         position: relative;
@@ -226,24 +228,25 @@
 .stories-container > img{
         border-radius:  16px 16px 0 0 ;
 }
-.date{ margin-left: 38px;
-        margin-top: -28px;
-        margin-right: 78px;
-        width: 180px;
+.date{
         padding: 15px 20px;
-        border-radius: 47.93px;
+        border-radius: 28px;
         background: rgb(60, 216, 232);
         position: relative;
         color: rgb(255, 255, 255);
         font-family: Raleway;
         font-size: 14px;
         font-weight: 500;
+        position: absolute;
+        top: 50%;
+        left: 7%;
 
         
 }
 .box-1{
         width: 540px;
         height: 630px;
+        position: relative;
 }
 .container-box-1{
         display: flex;
@@ -266,13 +269,7 @@
         margin: 0 68px 34px 38px;                
 }
 .date-1{
-        margin-top: -20px;
-        margin-left: -38px;
-        width: 180px;
-        padding: 15px 19px;
-        border-radius: 47.93px;
         background: rgb(149, 178, 38);
-        position: relative;
         color: rgb(255, 255, 255);
         font-family: Raleway;
         font-size: 14px;
@@ -282,7 +279,6 @@
         color: rgb(0, 0, 0);
         font-size: 15.5px;
         font-weight: 700;
-        margin: 19px 54px 32px 38px;
 }
 .story-btn{
         text-align: center;
@@ -290,6 +286,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+}
+.stori-contaier{
+        padding: 35px 38px;
+}
+#date-color{
+       background-color: #5D58F0;
 }
 @media screen and (max-width:576px) {
         .hide-mobile{
@@ -352,6 +354,26 @@
         .curriculuam-description, .read-more{
                 font-size: 10.5px;
         }
-        
-        
+        .stories-container{
+                width: 175px;
+                height: 180px;
+        }
+        .stories-container>img{
+                width: 175px;
+                height: 100px;
+                }
+        .date{
+                padding: 5px 11px;
+                font-size: 9px;
+        }
+        .container-box-story-title{
+                font-size: 9px;
+        }
+        .stori-contaier{
+                gap: 11px;
+                padding: 23px 20px 17px 23px;
+        }
+        .story-btn{
+                height: 120px;
+        }
 }
