@@ -340,7 +340,77 @@
 .icon{
         gap: 10px;
 }
+.btn-primary:hover{
+        cursor: pointer;
+        background-color: #FEA301;
+}
+.nav-btn:hover{
+        background-color: #000000;
+}
+.read-more:hover{
+        cursor: pointer;
+        color: aquamarine;
+        transition: 0.15s;
+}
+/* css marwue */
+ .marquee {
+         height: 50px;
+         overflow: hidden;
+         position: relative;
+         background: rgb(248, 186, 15);
+         color: white;
+        
+ }
 
+ .marquee p {
+         position: absolute;
+         font-size: 20px;
+         width: 100%;
+         height: 100%;
+         margin: 0;
+         line-height: 50px;
+         text-align: center;
+         -moz-transform: translateX(100%);
+         -webkit-transform: translateX(100%);
+         transform: translateX(100%);
+         -moz-animation: scroll-left 2s linear infinite;
+         -webkit-animation: scroll-left 2s linear infinite;
+         animation: scroll-left 20s linear infinite;
+ }
+
+ @-moz-keyframes scroll-left {
+         0% {
+                 -moz-transform: translateX(100%);
+         }
+
+         100% {
+                 -moz-transform: translateX(-100%);
+         }
+ }
+
+ @-webkit-keyframes scroll-left {
+         0% {
+                 -webkit-transform: translateX(100%);
+         }
+
+         100% {
+                 -webkit-transform: translateX(-100%);
+         }
+ }
+
+ @keyframes scroll-left {
+         0% {
+                 -moz-transform: translateX(100%);
+                 -webkit-transform: translateX(100%);
+                 transform: translateX(100%);
+         }
+
+         100% {
+                 -moz-transform: translateX(-100%);
+                 -webkit-transform: translateX(-100%);
+                 transform: translateX(-100%);
+         }
+ }
 @media screen and (max-width:576px) {
         .hide-mobile{
                 display: none;
